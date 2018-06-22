@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.row{
+padding:0 !important;
+margin:0 !important;
+}
+
+.back{
+    background-image: url("../assets/images/Lyft\ car.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display:none;
+    
+}
+
+#screen{
+    background-image:url("../assets/images/lyft.png");
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+
+}
+.top-image{
+    width:10vh;
+    height: 10vh;
+}
+
+.logo{
+    height:60vh;
+    width:100%;
+    align: center;
+}
+
+.end{
+    height:100vh;
+}
+
+.arrow-left{
+    color: rgb(255, 119, 142);
+    font-size:3em;
+    width: 5em;
+
+}
+
+.title{
+    text-align: center;
+}
+
+
+
