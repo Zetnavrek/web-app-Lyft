@@ -6,8 +6,21 @@ $(function(){
 });
 
 
+$("#sing-up").click(function(){
+        $("#phone-form").show();
+        $("#screen").hide();
+});
 
-var captch = document.getElementById("captcha"); //.innerHTML
+function getContactData(){
+    
+    var phone=$('#contact-phone').val();
+    /*console.log(name,phone);*/
+    addContactData(name,phone);
+}
+
+
+
+/*var captch = document.getElementById("captcha"); //.innerHTML
 // console.log(captch);
 var input = document.getElementById("validar");
 // console.log(input);
@@ -26,7 +39,7 @@ newCaptcha.addEventListener("click", reload);
 */
 
 
-function generarCaracteres() {
+/*function generarCaracteres() {
   var cadena = "";
   var bandera = true;
   
@@ -83,6 +96,7 @@ function reload() {
 
 generarCaracteres();
 // https://sweetalert.js.org/guides/
+*/
 
 $(document).ready(function(){
     $('.modal').modal();

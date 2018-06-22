@@ -35,6 +35,9 @@ margin:0 !important;
     align: center;
 }
 
+#phone-form {
+    display:none;
+}
 .end{
     height:100vh;
 }
@@ -42,13 +45,16 @@ margin:0 !important;
 .arrow-left{
     color: rgb(255, 119, 142);
     font-size:3em;
-    width: 5em;
-
+    padding: 0;
 }
 
 .title{
     text-align: center;
+    margin:0 !important;
+    padding: 0;
 }
+
+
 
 
 
